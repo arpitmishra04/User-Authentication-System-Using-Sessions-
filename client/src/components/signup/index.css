@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid gray;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: teal;
+    border-radius: 0.25rem;
+    border: none;
+  }
+  
+  .error {
+    margin-top: 1rem;
+    color: red;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .signup{
+    margin-top:5%;
+  }
+
+  button{
+    display:inline-flex;
+    margin-bottom: 30px;
+  }
